@@ -1,31 +1,35 @@
-🧪 Final Project: Kimia Farma Business Analysis
-📌 Background
-This project evaluates the business performance of Kimia Farma from 2020 to 2023, aiming to understand the role of a Big Data Analyst in processing and analyzing company transaction data.
+# 🧪 Final Project: Kimia Farma Business Analysis
 
-📂 Data Sources
-kf_final_transaction.csv — Transaction data
+## 📌 Background  
+This project evaluates the business performance of **Kimia Farma** from **2020 to 2023**, aiming to understand the role of a **Big Data Analyst** in processing and analyzing company transaction data.
 
-kf_inventory.csv — Inventory data
+## 📂 Data Sources  
+- `kf_final_transaction.csv` — Transaction data  
+- `kf_inventory.csv` — Inventory data  
+- `kf_kantor_cabang.csv` — Branch office data  
+- `kf_product.csv` — Product data  
 
-kf_kantor_cabang.csv — Branch office data
+## 🎯 Project Objectives & Challenges  
 
-kf_product.csv — Product data
+### 1. BigQuery Data Import  
+- Import all four datasets into BigQuery as separate tables.
 
-🎯 Project Objectives & Challenges
-BigQuery Data Import
+### 2. Data Aggregation & Analysis  
+- Join and combine all datasets into a single analytical table.  
+- Calculate profit based on product price categories.
 
-Import all four datasets into BigQuery as separate tables.
+### 3. Looker Studio Dashboard  
+- Visualize business performance from 2020 to 2023.  
+- Analyze branch-level transaction data.  
+- Map profit distribution across Indonesia by province.  
+- Deliver additional business insights based on the data.
 
-Data Aggregation & Analysis
+## 📊 Tools Used
+- **Google BigQuery** — Data warehousing and SQL analysis  
+- **Google Looker Studio** — Dashboard visualization  
+- **Google Sheets** — Data preprocessing and mapping  
+- **SQL** — Data cleaning and transformation
 
-Join and combine all datasets into a single analytical table.
+---
 
-Calculate profit based on product price categories.
-
-Looker Studio Dashboard
-
-Visualize business performance from 2020 to 2023.
-
-Analyze branch-level transaction data.
-
-Create a profit heatmap of Indonesia by province and derive actionable insights.
+> 🔍 This project demonstrates the capability to handle real-world business datasets and translate raw data into actionable insights for stakeholders.
